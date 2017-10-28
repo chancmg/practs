@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+	<script type="text/javascript">
+		function area(a)
+		{
+			alert(a*a)
+		}
+	</script>
+	
+</head>
+<body>
+<div class="main">
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+<h1>My First Heading</h1>
+<p title="John 'ShotGun' Nelson">ssd</p>
+<p id="first"><strong>My first paragraph.</strong></p>
+</div>
+<br>
+<hr>
+<p><b>bold</b></p>
+<p>My favorite <ins>color</ins> is red.</p>
+<p style="font-size: 52">Secand para</p>
+<center><img src="D:\Dev\pract\html\images\s.jpg" alt="image" height="100" width="100"></center>
+
+<ul>
+<li>chan</li>
+<li>murali</li>
+<li>ganesh</li>
+</ul>
+
+<ol>
+<li>chan</li>
+<li>murali</li>
+<li>ganesh</li>
+</ol>
+
+<dl>
+<dt>COBOL</dt>
+<dd>common buisness oriented language</dd>
+</dl>
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+
+<table border="1px" cellspacing="2" cellpadding="2" align="left">
+<caption>sample</caption>
+	
+	<tr><th>col2</th><td>chan</td><td>&nbsp;</td></tr>
+	<tr ><th width=40%>col1</th><td colspan="2">murali</td></tr>
+</table>
+<a href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a>
+
+<form id="details"action="action.php" method="POST" onsubmit="alert('are you sure?')">
+<fieldset>
+	<legend>Information</legend>
+
+<label for="username" value="">Username</label><br>
+<input type="text" name="username"><br>
+password<br>
+<input type="password" name="password"><br>
+
+ <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+
+<select>
+	<option value="audi" selected>Audi</option>
+	<option value="bmw">BMW</option>
+	<option value="camero">Porche</option>
+
+</select>
+
+<br>
+<textarea>text here</textarea>
+
+<input type="file" name="file">
+  <input type="submit" value="Submit"><input type="reset" name="reset">
+</fieldset>
+
+</form>
+<br>
+<br>
+<p id="demo">sample</p>
+<button type=button onclick='area(5)'>Click me</button>
+</body>
+</html>

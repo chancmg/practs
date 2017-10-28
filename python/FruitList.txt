@@ -1,0 +1,5 @@
+Serial No. Fruit Name Status
+1 Apple Sold
+2 Banana Available
+3 Grapes Sold
+4 Orange Sold
